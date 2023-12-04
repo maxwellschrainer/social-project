@@ -13,10 +13,11 @@ body {
   background-color: black;
 }
 
-body{
-    background: url(imagens/fundo-madeira.jpg) no-repeat top center;
-    background-size: cover;
-    background-attachment: fixed;
+body {
+  background: url(imagens/fundo-madeira.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  /*Configuração do fundo*/
 }
 
 main {
@@ -30,9 +31,17 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*centralização*/
+  /*Centralização*/
 
   background: url(imagens/frame-iphone.png) no-repeat;
   height: 627px;
   width: 311px;
+}
+
+#tela {
+  position: relative;
+  top: 80px;
+  left: 22px;
+  width: 268px;
+  height: 471px;
 }
