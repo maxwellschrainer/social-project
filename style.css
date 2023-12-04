@@ -13,11 +13,16 @@ body {
   background-color: black;
 }
 
+body{
+    background: url(imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 main {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-color: green;
 }
 
 #smartphone {
@@ -27,7 +32,7 @@ main {
   transform: translate(-50%, -50%);
   /*centralização*/
 
-  background-color: blue;
-  height: 500px;
-  width: 500px;
+  background: url(imagens/frame-iphone.png) no-repeat;
+  height: 627px;
+  width: 311px;
 }
