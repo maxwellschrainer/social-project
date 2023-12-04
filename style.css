@@ -45,3 +45,20 @@ main {
   width: 268px;
   height: 471px;
 }
+
+#socialmedia {
+  text-align: right;
+}
+
+#socialmedia img {
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#socialmedia img:hover {
+  box-shadow: 2px 2px 7px rgba(255, 255, 255, 0.5); /*Sombra do hover*/
+  transform: translate(-1px, -1px); /*Movimentação do hover*/
+  transition: .3s, border 1s; /*Velocidade da transição de movimentação*/
+}
